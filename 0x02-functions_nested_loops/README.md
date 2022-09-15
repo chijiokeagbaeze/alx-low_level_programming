@@ -1,6 +1,6 @@
 READ ME
 
-This project contains the following ALX-SE Cohort 9 tasks:
+This project contains the following ALX-SE tasks:
 
 Task 0 - Write a program that prints _putchar, followed by a new line.
 
