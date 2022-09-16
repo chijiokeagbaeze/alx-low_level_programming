@@ -8,24 +8,17 @@
 
 int main(void)
 {
-	int counter = 2;
-
-	float a = 1;
-	float b = a + 1;
-	float c = a + b;
-
-	printf("%.0f, ", a);
-	printf("%.0f, ", b);
-	while (counter < 98)
+	int i, fib, fib1 = 1, fib2 = 2;
+	
+	for (i = 0; i < 97; i++)
 	{
-		counter++;
-		printf("%.0f, ", c);
-		a = b;
-		b = c;
-		c = a + b;
-		if (counter < 98);
+		printf("%d", fib1);
+		while (fib1)
 		{
-			printf(", ");
+			printf(" ,%d", fib2);
+			fib = fib1 + fib2;
+			fib1 = fib2;
+			fib2 = fib;
 		}
 	}
 	printf("\n");
