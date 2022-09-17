@@ -26,7 +26,7 @@ int main(void)
 		{
 			printf("Fizz ");
 		}
-		
+
 		else if  (i % 5 == 0)
 		{
 			if (i < p)
@@ -35,13 +35,13 @@ int main(void)
 
 		else
 		{
-			printf("%d ", i);
+			printf("%i ", i);
 		}
-	       
+
 		i++;
 
 
-	}	
+	}
 	printf("\n");
 	return (0);
 }
