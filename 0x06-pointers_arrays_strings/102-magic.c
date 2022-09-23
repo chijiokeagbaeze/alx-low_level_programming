@@ -13,8 +13,8 @@ int main(void)
 	 * Remember: don't use a, don't modify p and use only one statement
 	 * don't code anything else than this line of code
 	 */
-		*(p + 5) = 98;
-/* ...this prints 98\n */
+	*(p + 5) = 98;
+	/* ...this prints 98\n */
 	printf("a[2] = %d\n", a[2]);
 	return (0);
 }
