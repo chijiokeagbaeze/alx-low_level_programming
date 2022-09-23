@@ -10,8 +10,11 @@ int main(void)
 	p = &n;
 	/**
 	 * write your line of code here...
-	 * Remember: don't use a, don't modify p and use only one statement
-	 * don't code anything else than this line of code
+	 * Remember:
+	 * - you are not allowed to use a
+	 * - you are not allowed to modify p
+	 * - olny one statement
+	 * - you are not allowed to code anything else than this line of code
 	 */
 	*(p + 5) = 98;
 	/* ...this prints 98\n */
