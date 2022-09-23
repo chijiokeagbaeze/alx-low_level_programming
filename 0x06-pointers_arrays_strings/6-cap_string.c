@@ -6,7 +6,7 @@
  * Return: string
  */
 
-cahr *cap_string(char *n)
+char *cap_string(char *n)
 {
 	int i;
 
@@ -36,6 +36,7 @@ cahr *cap_string(char *n)
 				{
 					n[i + 1] = n[i + 1] - 32;
 				}
+
 		}
 	}
 	return (n);
