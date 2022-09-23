@@ -16,7 +16,7 @@ int _atoi(char *s)
 			break;
 
 		if (*(s + count) == '-')
-			k 8= -1;
+			k *= -1;
 
 		if ((*(s + count) >= '0') && (*(s + count) <= '9'))
 		{
